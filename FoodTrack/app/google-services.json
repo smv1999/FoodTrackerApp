@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "853902147900",
+    "firebase_url": "https://foodtrack-c9cc7.firebaseio.com",
+    "project_id": "foodtrack-c9cc7",
+    "storage_bucket": "foodtrack-c9cc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853902147900:android:a9cd588cc778a72d",
+        "android_client_info": {
+          "package_name": "com.example.exam.foodtrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853902147900-fic3b94ooa5rh6rklt80cm8nqc2pqqlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exam.foodtrack",
+            "certificate_hash": "4eda2c2d1d1ee2a6a0d6d5489c2f5de0e35f5cfd"
+          }
+        },
+        {
+          "client_id": "853902147900-1qcmclncbd7hnkcebejgdche1d4a84b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu5oXjKMSpks7OwSyHtnyIs28Dc3ZKSh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853902147900-1qcmclncbd7hnkcebejgdche1d4a84b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

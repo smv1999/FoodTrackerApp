@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.example.exam.foodtrack.Route">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Select Route"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/route_spinner"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        >
+
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Station"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cstation"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cholan_spinner">
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Station"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:id="@+id/rstation"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/rajdhani_spinner">
+    </Spinner>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coach No."
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:id="@+id/coach"
+        android:maxLength="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seat Number"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/seat"
+        android:maxLength="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="ORDER"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:id="@+id/itemu"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:id="@+id/qtyu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idly"
+            android:id="@+id/idli"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/q1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:text="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pongal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/pongal"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/q2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="right"
+            android:textSize="20sp"
+            android:text="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosa"
+            android:id="@+id/dosa"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/q3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="0"
+            android:layout_gravity="right"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veg Rice"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:id="@+id/q4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="right"
+            android:textSize="20sp"
+            android:text="0"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/next"
+            android:cursorVisible="true"
+            android:layout_gravity="center"/>
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
